@@ -1,0 +1,19 @@
+{
+  "supported_files": {
+    "gzip_archive": {
+      "file_signature": "1f8b08"
+    },
+    "microsoft_office_open_xml_format": {
+      "file_signature": "504b0304"
+    },
+    "bitmap_image": {
+      "file_signature": "424d"
+    },
+    "mpeg-4_acc_audio": {
+      "file_signature": "fff1"
+    },
+    "executable_and_linkable_format": {
+      "file_signature": "7f454c46"
+    }
+  }
+}
