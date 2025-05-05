@@ -23,13 +23,13 @@ def print_supported_files():
     if supported_files is None:
         return None
 
-    print('Supported Files: ')
+    print('Supported File Types: ')
 
     for file in supported_files.keys():
         print(f'\t{file}')
         time.sleep(.5)
 
-    time.sleep(3)
+    time.sleep(2)
 
 def open_json_file():
 
