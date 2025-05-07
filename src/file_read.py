@@ -1,5 +1,5 @@
 '''
-CSCI 410 Final Project
+CSCI410/610 Final Project
 By Cale Voglewede and Nancy Mahlen
 
 file_read.py:

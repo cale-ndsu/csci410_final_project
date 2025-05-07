@@ -1,8 +1,8 @@
 '''
-CSCI 410 Final Project
+CSCI410/610 Final Project
 By Cale Voglewede and Nancy Mahlen
 
-csci410_final_project.py:
+main.py:
 Main runtime function of the project, handles user interaction
 
 '''
@@ -18,7 +18,7 @@ def main():
     os.chdir(BASE_PATH)
     clear()
         
-    print('CSCI 410 Final Project '
+    print('CSCI410/610 Final Project '
           'By Cale Voglewede and Nancy Mahlen\n')
 
     while(True):
