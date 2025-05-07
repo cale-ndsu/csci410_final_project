@@ -9,7 +9,7 @@ Main runtime function of the project, handles user interaction
 import os
 import time
 from json_config import print_supported_files
-from file_read import get_test_files_list
+from file_read import get_test_files_list, identify_file
 
 def main():
 
@@ -37,7 +37,7 @@ def main():
 
         if (input_1 == 'b'):
             clear()
-            identify_file()
+            identify_one_file()
 
         if (input_1 == 'c'):
             clear()
@@ -65,11 +65,13 @@ def simulate_file_identification():
     for file in file_list:
         clear()
         print(f'Identifying file type of {file}...\n')
-        time.sleep(2) # Will be read function eventually
+        time.sleep(2)
+        identify_file(file) 
+        time.sleep(1)
         press_enter_to_continue()
 
 
-def identify_file():
+def identify_one_file():
 
     number_input = ''
     file_list = get_test_files_list()
@@ -98,7 +100,9 @@ def identify_file():
 
     clear()
     print(f'Identifying file type of {file_choices_reversed[number_input]}...\n')
-    time.sleep(2) # Will be read function eventually
+    time.sleep(2)
+    identify_file(file_choices_reversed[number_input])
+    time.sleep(1)
     press_enter_to_continue()
 
 def map_files_to_numbers(file_list:list) -> dict:

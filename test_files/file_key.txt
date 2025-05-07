@@ -1,1 +1,13 @@
-More test files coming soon...
+File Key
+
+FileA - Bitmap Image
+FileB - AAC Audio
+FileC - Modified AAC Audio
+FileD - Modified DOCX File
+FileE - Gzip Archive
+FileF - Modified Executable and Linkable Format File
+FileG - Modified Bitmap Image
+FileH - Executable and Linkable Format File
+FileI - Modified Gzip Archive (Incorrectly Identified by File Signature)
+FileJ - DOCX File
+FileK - Garbage Data
