@@ -23,10 +23,13 @@ The files' main functions are:
 
 **test_files**
 
-Hold a repository of test files to test identifcation system.
+Holds a repository of test files to test identifcation system.
 
 &emsp;(see test_files/file_key.txt for file identities)
 
 **Acknowledgements**  
+
+File signatures provided from GCK File Signature Table (https://filesig.search.org/about)
+
 Tux image by Larry Ewing @ lewing@isc.tamu.edu and The GIMP
 
